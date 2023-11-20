@@ -1,4 +1,4 @@
-package ru.gb.lesson1;
+package ru.lesson1;
 
 public abstract class AbstractAccount implements Account {
     protected double balance;

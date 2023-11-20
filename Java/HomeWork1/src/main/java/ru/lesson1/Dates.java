@@ -1,4 +1,4 @@
-package ru.gb.lesson1;
+package ru.lesson1;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;

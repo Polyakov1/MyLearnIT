@@ -1,4 +1,4 @@
-package ru.gb.lesson1;
+package ru.lesson1;
 
 public interface Account {
 

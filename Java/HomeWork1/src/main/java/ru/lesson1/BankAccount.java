@@ -1,4 +1,4 @@
-package ru.gb.lesson1;
+package ru.lesson1;
 
 public class BankAccount implements Account {
     private double balance;
@@ -19,7 +19,10 @@ public class BankAccount implements Account {
             System.out.println("Ошибка");
         }
     }
-    public double getAmount() {
+    @Override
+    public double getAmount()
+    {
+        System.out.println("На счету средств - " + balance + ".");
         return balance;
     }
 

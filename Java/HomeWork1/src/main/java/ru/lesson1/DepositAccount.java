@@ -1,4 +1,4 @@
-package ru.gb.lesson1;
+package ru.lesson1;
 import java.time.LocalDate;
 //* - Депозитный счет (DepositAccount) *
 //   * Особенность: нельзя снимать средства чаще, чем раз в месяц.
