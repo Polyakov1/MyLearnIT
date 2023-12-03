@@ -55,7 +55,7 @@ public class Homework {
         @Override
         public byte[] createReport(Document document) {
             byte[] data = null;
-            // ... код, который формирует PDF-документ, используя поля документа
+            // ... код, который формирует Json-документ, используя поля документа
 
             return data;
         }
@@ -66,7 +66,7 @@ public class Homework {
         @Override
         public byte[] createReport(Document document) {
             byte[] data = null;
-            // ... код, который формирует PDF-документ, используя поля документа
+            // ... код, который формирует Другой-документ, используя поля документа
 
             return data;
         }
