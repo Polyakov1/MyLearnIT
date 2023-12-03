@@ -2,7 +2,12 @@ package org.example;
 
 import java.util.Map;
 import java.util.NoSuchElementException;
+//1. Насколько сложно добавить поддержку нового типа отчета?
+// - Придется каждый раз создавать новый тип данных, но лучше всего заранее спланировать в каком ввиде надо эскпортировать данные.
+//
 
+//   * 2. Как будет выглядеть проект, если в нем будет 1000+ типов отчетов?
+//Большим и поэтому If или Switch не подойдет и нужно что-то более совершенное вроде Map.
 public class Homework {
     public static void main(String[] args) {
         ReportService reportService = new ReportService(Map.of("pdf", new PdfReport()));
