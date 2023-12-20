@@ -1,0 +1,71 @@
+/* Сброс */
+body, figure, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Стили для блоков */
+.header h1,
+.header nav {
+  display: inline-block;
+}
+
+nav {
+  background-color: gray;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
+  background-color: lightblue;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+section button {
+  padding: 10px 20px;
+}
+
+footer {
+  background-color: gray;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.text-block {
+  float: left;
+}
+
+.image-container {
+  float: right;
+}
