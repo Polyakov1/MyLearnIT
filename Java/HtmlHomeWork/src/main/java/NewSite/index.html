@@ -4,39 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork4</title>
     <link rel="stylesheet" href="style.css">
-    <title>Homework3</title>
 </head>
 <body>
-<div class="header">
-    <h1>Header</h1>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-</div>
+<header>
+    <div class="header__wrapper container">
+        <img src="img/logo.png" alt="growbe"><nav class="navigation">GrowBe</nav>
+        <nav class="navigation">
+            <a class="link" href="#">Home</a>
+            <a class="link" href="#">About Us</a>
+            <a class="link" href="#">Services</a>
+            <select class="select_nav" name="" id="">
+                <option value="def" selected>
+                    <a class="link" href="#">Features</a>
+                </option>
+                <option value="">Another.</option>
+                <option value="">Another.</option>
+                <option value="">Another.</option>
+            </select>
+            <a class="link" href="#">Team</a>
+            <a class="link" href="#">Blog</a>
+            <a class="link" href="#">Contact</a>
+        </nav>
+    </div>
+</header>
 <main>
-    <div class="text-block">
-        <section>
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button>Button</button>
-        </section>
-    </div>
-    <div class="image-container">
-        <img src="../image/БолееПодробнаяВерсия.png" alt="Изображение">
-    </div>
-</main>
+    <section class="main__content container">
+        <div class="main__contnt__text">
+            <h1 class="big-title">SEO & Digital Marketing For Your Website.</h1>
+            <p class="text">Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.</p>
+            <div class="btns-list">
+                <button class="btn">Start Now</button>
+                <button class="btn1">Watch Video</button>
+            </div>
+        </div>
+        <img class="img-right" src="img/photo.png" alt="lorem">
+    </section>
+    <section>
+        <article class="logos container">
+            <img src="img/1.png" alt="logo">
+            <img src="img/6.png" alt="logo">
+            <img src="img/3.png" alt="logo">
+            <img src="img/4.png" alt="logo">
+            <img src="img/5.png" alt="logo">
+            <img src="img/6-1.png" alt="logo">
+        </article>
+    </section>
 
-<footer>
-    <p>&copy; 2022 My Website. All rights reserved.</p>
-</footer>
+</main>
 </body>
 </html>
